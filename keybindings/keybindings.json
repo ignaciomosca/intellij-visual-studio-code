@@ -1,11 +1,11 @@
 // Key bindings that are more inline with IntelliJ
 [
   {
-    "key": "cmd+'",
+    "key": "ctrl+'",
     "command": "workbench.action.splitEditor"
   },
   {
-    "key": "cmd+d",
+    "key": "ctrl+d",
     "command": "editor.action.copyLinesDownAction",
     "when": "editorTextFocus"
   },
@@ -33,40 +33,40 @@
     "when": "editorFocus"
   },
   {
-    "key": "cmd+r",
+    "key": "ctrl+r",
     "command": "editor.action.startFindReplaceAction"
   },
   {
-    "key": "alt+cmd+l",
+    "key": "alt+ctrl+l",
     "command": "editor.action.format",
     "when": "editorTextFocus"
   },
   {
-    "key": "cmd+-",
+    "key": "ctrl+-",
     "command": "editor.action.commentLine",
     "when": "editorTextFocus"
   },
   {
-    "key": "cmd+y",
+    "key": "ctrl+y",
     "command": "editor.action.previewDeclaration",
     "when": "editorTextFocus"
   },
   {
-    "key": "cmd+b",
+    "key": "ctrl+b",
     "command": "editor.action.goToDeclaration",
     "when": "editorTextFocus"
   },
   {
-    "key": "cmd+l",
+    "key": "ctrl+l",
     "command": "workbench.action.gotoLine",
     "when": "editorTextFocus"
   },
   {
-    "key": "alt+cmd+o",
+    "key": "alt+ctrl+o",
     "command": "workbench.action.gotoSymbol"
   },
   {
-    "key": "cmd+e",
+    "key": "ctrl+e",
     "command": "workbench.action.quickOpen"
   },
   {
@@ -80,7 +80,7 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "shift+cmd+1",
+    "key": "shift+ctrl+1",
     "command": "workbench.view.explorer"
   },
   {
@@ -88,30 +88,30 @@
     "command": "workbench.view.debug"
   },
   {
-    "key": "shift+cmd+r",
+    "key": "shift+ctrl+r",
     "command": "workbench.action.replaceInFiles"
   },
   {
-    "key": "shift+cmd+]",
+    "key": "shift+ctrl+]",
     "command": "workbench.action.nextEditor",
     "when": "editorTextFocus"
   },
   {
-    "key": "shift+cmd+[",
+    "key": "shift+ctrl+[",
     "command": "workbench.action.previousEditor",
     "when": "editorTextFocus"
   },
   {
-    "key": "cmd+[",
+    "key": "ctrl+[",
     "command": "workbench.action.navigateBack",
     "when": "editorTextFocus"
   },
   {
-    "key": "cmd+]",
+    "key": "ctrl+]",
     "command": "workbench.action.navigateForward",
     "when": "editorTextFocus"
   },
-  { "key": "cmd+backspace",
+  { "key": "ctrl+backspace",
     "command": "editor.action.deleteLines",
     "when": "editorTextFocus && !editorReadonly"
   },
